@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.top {
+    width: 100%;
+    height: 60px;
+    background: rgba(40,40,40,0.8);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
+    height: 60px;
+    padding: 0 15px;
+
+}
+
+.nav .left {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 60px;
+    float: left;
+}
+
+.nav .right {
+    float: right;
+}
+
+.nav .right ul li {
+    display: none;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.nav .right ul li a {
+    color: #fff;
+}
+
+.nav .right ul li.from_top {
+    display: block;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fa3447;
+}
+
+.feature {
+    width: 100%;
+    height: 590px;
+    background: url("../images/about1.jpg") no-repeat top center;
+    background-size: cover;
+    padding: 180px 0 120px;
+}
+
+.header {
+    width: 100%;
+}
+
+.feature .box {
+    background: rgba(33, 42, 63, 0.5);
+    height: 270px;
+    padding: 20px 40px;
+}
+
+.feature .box p {
+    text-align: center;
+    color: white;
+}
+
+.feature .box p.intro {
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.feature .box h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 7px double aqua;
+    border-top: 7px double aqua;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.feature .box h3 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.feature .box p span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #83D3C9;
+
+}
+
+.feature .box p a.link-button {
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 1px;
+    margin-top: 20px;
+    line-height: 4;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 14px;
+    font-size: 13px;
+}
+.feature .box p a.link-button:hover{
+  background: rgba(240,240,240,0.5);
+}
+.come_text{
+    padding: 40px 0;
+}
+.come_text .title h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 29px;
+    text-align: center;
+    color: #8AB839;
+    text-transform: uppercase;
+}
+.come_text .desc p {
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+.skills{
+    background: rgb(59,89,151,0.6);
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.skills h2{
+    text-align: center;
+
+}
+.skills h2:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #FFF none repeat scroll 0% 0%;
+    content: "";
+}
+.project h2{
+    text-align: center;
+}
+.project h2:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #8ab839 none repeat scroll 0% 0%;
+    content: "";
+}
+.contact{
+    padding: 60px 0px;
+    float: left;
+    width: 100%;
+}
+.contact h2{
+    text-align: center;
+}
+.contact h2:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #8ab839 none repeat scroll 0% 0%;
+    content: "";
+}
+.skills_next h4{
+    font-family: 'Roboto', sans-serif;
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+.skills_next p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #2E2E2E;
+    text-align: center;
+}
+.skills_top .glyphicon{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+.skills_box{
+    margin: 25px 0;
+}
+.project{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.project_img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.project_box h3{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    background: aqua;
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.project_box{
+    overflow: hidden;
+    margin: 20px 0;
+}
+.project_box:hover .float_bom {
+    top:0;
+}
+.project_img .float_bom{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background: rgba(255,192,203,0.3);
+    position: absolute;
+    top: -300px;
+    transition: all 0.2s;
+}
+.skills_first{
+    text-align: center;
+    width: 100%;
+    background: rgba(33, 42, 63, 1);
+    padding: 80px 0;
+    float: left;
+}
+.skills_first_box{
+    margin-top: 30px;
+}
+.skills_first_box h2{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 50px;
+    color: aqua;
+}
+.skills_first_box h3{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.skills_first_box .glyphicon{
+    font-size: 40px;
+    color: aqua;
+    display: inline-block;
+    font-weight: 400;
+}
+.add{
+    margin-top: 30px;
+}
+.add h3{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.add .glyphicon{
+    padding-right: 10px;
+    font-size: 15px;
+    color: #8AB839;
+    font-weight: 400;
+    display: inline-block;
+}
+.erweima{
+   margin-top: 30px;
+}
+.erweima img{
+    width: 50%;
+    height: 50%;
+}
+.bottomer{
+    background: #b6b6b6;
+    height: 50px;
+}
+.bottomer p{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    .feature .box {
+        height: 300px;
+    }
+    .nav .right ul li {
+        display: block;
+        float: left;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 60px;
+        color: #333;
+    }
+
+    .nav .right ul li.from_top {
+        display: none;
+    }
+
+    .feature .box p a.link-button {
+        padding: 15px 22px;
+        font-size: 18px;
+    }
+    .skills_next h4{
+        text-align: left;
+    }
+    .skills_next p{
+        text-align: left;
+    }
+    .skills_box{
+        margin: 30px 0;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    .feature .box {
+        height: 340px;
+    }
+    .come_text .title h2{
+        font-size: 40px;
+    }
+    .skills_box{
+        margin: 40px 0;
+    }
+    .erweima img{
+        width: 50%;
+        height: 50%;
+    }
+}

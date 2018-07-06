@@ -1,0 +1,252 @@
+@import url('base.css');
+.tou{
+	width: 100%;
+	height: 1.26rem;
+	background: #fe3700;
+	text-align: center;
+	line-height: 1.26rem;
+	font-size: 0.46rem;
+	color: #fff;
+	position: relative;
+}
+.fanhui{
+	height: 100%;
+	display: block;
+	position: absolute;
+	font-size: 0.42rem;
+	line-height: 1.26rem;
+	text-align: left;
+	color: #fff;
+	top: 0;
+	left: 0.3rem;
+}
+.fanhui i{
+	display: block;
+	font-size: 0.42rem;
+	color: #fff;
+	float: left;
+}
+.fanhui h1{
+	font-size: 0.42rem;
+	color: #fff;
+	float: left;
+}
+.baoyou{
+	width: 100%;
+	height: 1.16rem;
+	background: #f5f5f5;
+	display: flex;
+	padding: 0.3rem;
+	box-sizing: border-box;
+    justify-content: space-between;
+}
+.baoyou span{
+	font-size: 0.32rem;
+	color: #999999;
+}
+.baoyou h1{
+	font-size: 0.4rem;
+	color: #2f2f2f;
+}
+.shangpin{
+	width: 100%;
+	padding: 0.3rem;
+	box-sizing: border-box;
+}
+.shangpin ul{
+	width: 100%;
+}
+.shangpin ul li{
+	width: 100%;
+	height: 3.17rem;
+	display: flex;
+}
+.shangpin ul li .duihao{
+	width: 0.6rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.shangpin ul li .duihao div{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+    background: #fd3501;
+}
+.shangpin ul li .duihao div i{
+    font-size: 0.6rem;
+    color: #fff;
+}
+li .tupian img{
+	width: 2.5rem;
+	height: 2.6rem;
+}
+li .wenzi{
+	padding-right: 0.3rem;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+li .wenzi h1{
+	font-size: 0.34rem;
+	color: #000;
+}
+li .wenzi span{
+	display: flex;
+	margin-top: 0.9rem;
+	font-size: 0.25rem;
+	color: #636363;
+}
+li .wenzi span p{
+	display: block;
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.01rem solid #eeeeee;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.76rem;
+	color: #c1c1c1;
+	background: #fafafa;
+
+}
+li .wenzi span p:first-child{
+	border-radius: 0;
+	margin-left: 2.4rem;
+}
+li .wenzi span p:nth-child(2){
+	font-size: 0.27rem;
+	color: #333;
+	background: #fff;
+}
+li .wenzi span p:last-child{
+	border-left: 0;
+}
+.jiesuan{
+	width: 100%;
+	height: 1.5rem;
+	position: absolute;
+	bottom: 1.67rem;
+	padding-left:0.3rem ;
+	box-sizing: border-box;
+	border-top: 0.03rem solid #d8d8d8;
+	border-bottom: 0.03rem solid #d8d8d8;
+	display: flex;
+	position: fixed;
+	bottom: 1.67rem;
+}
+.jiesuan .duihao{
+	width: 0.6rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.duihao div{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+    background: #fd3501;
+}
+.jiesuan .duihao div i{
+	font-size: 0.6rem;
+    color: #fff;
+}
+.jiesuan .yixuan{
+	display: block;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #333;
+	line-height: 1.5rem;
+	background: #fff;
+	border-radius: 0;
+	margin-left: 0.3rem;
+}
+.jiesuan .jiage{
+	display: block;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #b20612;
+	line-height: 1.5rem;
+	background: #fff;
+	border-radius: 0;
+	margin-left: 0.3rem;
+	margin-right: 2rem;
+}
+.jiesuan .qujiesuan{
+	width: 4.8rem;
+	height: 100%;
+	background: #fe3700;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #fff;
+}
+.tab{
+	width: 100%;
+	height: 1.67rem;
+	position: fixed;
+	background: #fff;
+	left: 0;
+	bottom: 0;
+}
+.tab ul{
+	display: flex;
+	justify-content: space-around;
+}
+.tab li{
+    width: 1.3rem;
+    height: 1.67rem;
+    margin-top: 0.32rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tab li i{
+	display: block;
+	font-size: 0.7rem;
+	color: #999999;
+	margin-top: 0.25rem;
+}
+.tab li span{
+	font-size: 0.32rem;
+}
+.tab li:nth-child(3) i{
+    color: #e0374e;
+}
+.bottomer{
+	width: 100%;
+	height: 1.5rem;
+	border-top: 1px solid #b6b6b6;
+	background-color: rgba(246,246,246,0.95);
+	text-align: center;
+	z-index: 1100;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-top: 0.2rem;
+}
+
+.user-bar-btn {
+	width: 24%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+
+.user-bar-btn .iconfont{
+	font-size: 0.8rem;
+	color:#666666;
+	background-clip:red;
+
+}
+.user-bar-btn span{
+	font-size: 0.4rem;
+	text-align: center;
+	display: block;
+	color: #666666;
+
+}
+.icon-location{
+	font-size: 0.24rem;
+}
+.bottomer .color_title{
+	color: #e0374e;
+}

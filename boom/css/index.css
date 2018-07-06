@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 0.88rem;
+    background: rgb(244,86,86);
+    position:fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+
+}.nav{
+    width: 100%;
+    height: 3.77rem;
+    margin-top: 1.08rem;
+ }
+ .banner{
+     width: 7rem;
+     height: 1.75rem;
+     margin: 0 auto;
+
+ }
+ .banner img{
+     width: 100%;
+     height: auto;
+ }
+ .prouduct_top{
+   width: 7rem;
+     height: 2.6rem;
+
+ }
+ .prouduct_top_left{
+     display: block;
+     float: left;
+     width: 40%;
+     height: auto;
+ }
+.prouduct_top_right{
+    display: block;
+    float: left;
+    width: 60%;
+    height: auto;
+}
+.prouduct_top img{
+    width: 100%;
+    height: auto;
+}
+ .dingwei{
+    font-size: 0.24rem;
+    color: white;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.24rem;
+}
+.sousuo{
+    font-size: 0.24rem;
+    float: left;
+    margin-top: 0.12rem;
+    margin-left:0.24rem ;
+    position: relative;
+}
+.sousuo .icon-sousuo{
+    position: absolute;
+    top: 0.14rem;
+    left: 0.1rem;
+    font-size: 0.2rem;
+    color: #666666;
+
+}
+.search{
+    width: 66vw;
+    height: 0.5rem;
+    border-radius: 0.22rem;
+    border:none;
+    font-size: 0.2rem;
+    text-indent:2em;
+    outline:none;
+}
+.button{
+}
+.nav ul{
+   margin: 0 auto;
+}
+.nav ul li{
+    width: 25vw;
+    height: 1.72rem;
+    float: left;
+    padding-top:0.14rem ;
+
+}
+.nav ul li img{
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin: 0 auto 0.12rem;
+}
+.nav ul li span{
+    display: block;
+    font-size: 0.22rem;
+    font-weight: 600;
+    line-height: 0.1rem;
+    text-align: center;
+    color: rgba(25,25,25,0.8);
+}
+.titlep{
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 0.4rem;
+    border-top:5px solid rgba(225,225,225,0.5) ;
+    color: rgb(247,76,75);
+    font-size: 0.4rem;
+    line-height: 1.2rem;
+    text-align: center;
+
+}
+.prouduct_next{
+    width: 7rem;
+    margin: 0.5rem auto;
+}
+.nav_title{
+    width: 100%;
+    height: 0.8rem;
+}
+.nav_title span{
+    font-size: 0.25rem;
+    color: #666666;
+    padding-left:0.15rem;
+    display: block;
+    width: 0.7rem;
+    height: 0.45rem;
+    float: left;
+    line-height: 0.45rem;
+}
+.font_color{
+    font-size: 0.3rem;
+    color: #000000;
+    width: 1.5rem;
+    height: 0.45rem;
+    float: left;
+    padding-left: 0.25rem;
+
+}
+.font_right{
+    width: 0.8rem;
+    height: 0.45rem;
+    font-size: 0.25rem;
+    line-height: 0.45rem;
+    color: #666666;
+    padding: 0 0.15rem;
+    float: right;
+}
+.nav_prouduct{
+    width: 7rem;
+    height: auto;
+    margin-bottom: 1.3rem;
+}
+.nav_prouduct ul li{
+    width: 100%;
+    height: 2rem;
+
+}
+.prouduct_img{
+    width: 33vw;
+    height: 1.7rem;
+    padding: 0.1rem;
+    float: left;
+}
+.prouduct_img img{
+    width: 100%;
+    height: 100%;
+}
+.prouduct_txt{
+    width: 55vw;
+    height: 2rem;
+    float: left;
+}
+.shop_top{
+    font-size: 0.35rem;
+    font-weight: 400;
+    color: #666666;
+    margin: 0.1rem 0;
+    padding-left: 0.3rem;
+}
+.shop_top span{
+    font-size: 0.25rem;
+    text-align: right;
+    float: right;
+    padding-right: 0.3rem;
+}
+.shop_next{
+    height: 0.4rem;
+    font-size: 0.2rem;
+    padding-left: 0.3rem;
+}
+.shop_next .left{
+    width: 1.2rem;
+    height: 0.3rem;
+    float: left;
+}
+.shop_next .left img{
+    width:100%;
+    height: 100%;
+}
+.shop_next span{
+    font-size: 0.2rem;
+    color: #666666;
+    padding: 0 0.1rem;
+}
+.shop_bottom{
+    height: 0.4rem;
+    font-size: 0.2rem;
+    padding-left: 0.3rem;
+}
+.shop_bottom span{
+    font-size: 0.2rem;
+    color: #666666;
+    padding: 0 0.1rem;
+}
+.shop_youhui{
+    height: 0.4rem;
+    font-size: 0.2rem;
+    padding-left: 0.3rem;
+
+}
+.shoudan{
+    width: 1.2rem;
+    height: 0.25rem;
+    border-radius: 0.1rem;
+    background: #facd75;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.shop_youhui span{
+    font-size: 0.25rem;
+    line-height: 0.25rem;
+    color: #facd75;
+    padding: 0 0.3rem;
+}
+.bottomer{
+    width: 100%;
+    height: 1.3rem;
+    border-top: 1px solid #b6b6b6;
+    background-color: rgba(246,246,246,0.95);
+    text-align: center;
+    z-index: 1100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.user-bar-btn {
+    width: 24%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.user-bar-btn .iconfont{
+    line-height: 0.1rem;
+    font-size: 0.6rem;
+    color:#666666;
+    position: relative;
+    top:-0.4rem;
+    background-clip:red;
+
+}
+.user-bar-btn span{
+    font-size: 0.2rem;
+    text-align: center;
+    display: block;
+    color: #666666;
+    position: relative;
+    top: -0.4rem;
+}
+.icon-location{
+    font-size: 0.24rem;
+}
+.bottomer .color_title{
+    color: #e0374e;
+}

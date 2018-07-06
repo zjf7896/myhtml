@@ -1,0 +1,116 @@
+@import url('base.css');
+.tou{
+	width: 100%;
+	height: 1.4rem;
+	border-bottom: 0.01rem solid #e9e7e8;
+	display: flex;
+	background: rgb(244,86,86);
+}
+.tou .zuojiantou{
+	display: block;
+    width: 1.2rem;
+    height: 100%;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.52rem;
+    color: #717171;
+}
+.tou .zuojiantou i{
+    display: block;
+    width: 1.2rem;
+    height: 100%;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.52rem;
+    color: white;
+}
+.tou h1{
+	width: 8.4rem;
+	height: 1.4rem;
+	color: white;
+	font-size: 0.5rem;
+	text-align: center;
+    line-height: 1.4rem;
+}
+.tou .quxiao{
+	height: 100%;
+	font-size: 0.4rem;
+	color: white;
+	text-align: center;
+    line-height: 1.4rem;
+}
+.bottom{
+	width: 100%;
+	height: 5.91rem;
+	background: #fafafa;
+	padding: 0 0.45rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.bottom input:focus{
+	outline: none;
+}
+.bottom input{
+	width: 100%;
+	height: 1.65rem;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	border: none;
+	border-top: 0.01rem solid #d1d1d1 ;
+	border-bottom: 0.01rem solid #d1d1d1 ;
+	font-size: 0.42rem;
+	color: #979797;
+	line-height: 1.65rem;
+	background: #fafafa;
+	display: block;
+
+}
+.bottom_T{
+	position: relative;
+}
+.bottom .yonghuming{
+	border-top: 0rem solid #d1d1d1 ;
+	border-bottom: 0rem solid #d1d1d1 ;	
+}
+.huoquyanzhengma{
+	position: absolute;
+	right: 0;
+	bottom: 0.27rem;
+}
+.huoquyanzhengma a{
+	display: block;
+	width: 2.62rem;
+	height: 0.98rem;
+	border-left: 0.01rem solid #d1d1d1;
+	font-size: 0.4rem;
+	color: #303030;
+	line-height: 0.98rem;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+
+}
+.lijizhuce{
+	width: 100%;
+	height: 2.59rem;
+}
+.lijizhuce h1{
+	width: 100%;
+	height: 1.35rem;
+	border-radius: 0.1rem;
+	background: rgb(244,86,86);
+	font-size: 0.42rem;
+	color: #fff;
+	line-height: 1.35rem;
+	text-align: center;
+}
+.lijizhuce span{
+	font-size: 0.36rem;
+	color: #a0a0a0;
+}
+.lijizhuce .xieyi{
+	color: #f3022d;
+}
+.lijizhuce_B{
+	position: absolute;
+	bottom: 0;
+}

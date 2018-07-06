@@ -1,0 +1,376 @@
+@import url("base.css");
+/* 头部 */
+.header{
+	width: 100%;
+	height: 1.4rem;
+	border-bottom: 0.01rem solid #e9e7e8;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header a{
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 50%;
+	background: rgb(244,86,86);
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header a:first-child{
+	margin-left: 0.36rem;
+}
+.header a:nth-child(2){
+	margin-left: 6.74rem;
+}
+.header a:nth-child(3){
+	margin-left: 0.68rem;
+}
+.header i{
+	font-size: 0.46rem;
+	color: #fff;
+}
+/* 头部 */
+.tupian{
+	width: 100%;
+	height: 8.80rem;
+	margin-top: 1.5rem;
+}
+.tupian img{
+	display: block;
+	width: 100%;
+	height: 8.80rem;
+}
+.jiage{
+	width: 100%;
+	height: 3.6rem;
+	border-bottom: 0.01px solid #eeeeee;
+	padding: 0.3rem ;
+	box-sizing: border-box;
+}
+.jiage p{
+	display: block;
+	font-size: 0.4rem;
+
+}
+.jiage_B{
+	margin: 0.3rem;
+	display: flex;
+}
+.jiage_B h1{
+	font-size: 0.45rem;
+	color: #fa5d10;
+	margin-right: 0.3rem;
+}
+.jiage_B span{
+    font-size: 0.36rem;
+    color: #969696;
+    margin-left: 0.1rem;
+}
+.jiage_B h2{
+	font-size: 0.36rem;
+    color: #969696;
+    text-decoration: line-through;
+}
+.xiaoliang{
+    display: flex;
+}
+.xiaoliang .L{
+	font-size: 0.34rem;
+	color: #666666;
+	margin-right: 2.65rem;
+	margin-left: 0.3rem;
+}
+.xiaoliang .Z{
+	font-size:0.34rem;
+	color: #666666;
+	margin-right: 2rem; 
+}
+.xiaoliang a i{
+	display: block;
+	font-size: 0.55rem;
+}
+.xiaoliang .R{
+	font-size: 0.34rem;
+    color: #666666;
+}
+/* 促销 */
+.cuxiao{
+	width: 100%;
+	height: 1.9rem;
+}
+.cuxiao_T{
+	width: 100%;
+	height: 0.24rem;
+	border-top: 0.01px solid #eeeeee;
+	border-bottom: 0.01px solid #eeeeee;
+	background: #fafafa;
+}
+.cuxiao_B{
+	width: 100%;
+	height: 1.65rem;
+	border-bottom: 0.01px solid #eeeeee;
+	overflow: hidden;
+	
+}
+.cuxiao_BL{
+	width: 1.44rem;
+	height: 0.82rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height:0.82rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.cuxiao_BR{
+    height: 100%;
+}
+.cuxiao_BR ul{
+	width: 8rem;
+	margin-top: 0.15rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cuxiao_BR ul li{
+	width: 5rem;
+	height: 0.6rem;
+	display: flex;
+	margin-bottom: 0.08rem;
+}
+.cuxiao_BR ul li h1{
+	width: 0.9rem;
+	height: 0.6rem;
+	background: rgb(244,86,86);
+	border-radius: 0.1rem;
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+
+}
+.cuxiao_BR ul li span{
+	display: block;
+	height: 0.6rem;
+	font-size: 0.36rem;
+	line-height: 0.6rem;
+	color: #969696;
+}
+/* 促销 */
+/* 服务 */
+.fuwu{
+	width: 100%;
+	height: 1.69rem;
+	border-bottom: 0.01rem solid #eeeeee;
+}
+.fuwu .cuxiao_BR ul li{
+	width: 4rem;
+	align-items: center;
+}
+.fuwu .cuxiao_BR ul li h1{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+}
+/* 服务 */
+.pingjia{
+	width: 100%;
+	height: 1.31rem;
+	padding:0 0.6rem;
+	box-sizing: border-box;
+}
+.pingjia h1{
+    height: 1.31rem;
+	font-size: 0.34rem;
+	color: #636363;
+	line-height: 1.31rem;
+	float: left;
+}
+.pingjia i{
+	display: block;
+	height: 1.31rem;
+	line-height: 1.31rem;
+	font-size: 0.3rem;
+	float: right;
+	color: #636363;
+}
+.yonghupingjia{
+	overflow: hidden;
+    padding:0.3rem 0.6rem;
+}
+.yonghuT{
+	width: 100%;
+	height: 0.75rem;
+	display: flex;
+}
+.yonghuT img{
+	display: block;
+	width: 0.75rem;
+	height: 0.75rem;
+}
+.yonghupingjia .yonghuT a{
+    display: block;
+    margin-left: 0.3rem;
+    font-size: 0.42rem;
+    color: #333;
+}
+.yonghuB{
+	width: 100%;
+}
+.yonghuB p{
+	display: block;
+	width: 100%;
+	font-size: 0.42rem;
+	color: #666666;
+	margin: 0.1rem 0;
+}
+.yonghuB span{
+	display: block;
+	width: 100%;
+	font-size: 0.26rem;
+	color: #969696;
+	margin-top: 0.4rem;
+}
+/* 店铺 */
+.dianpu{
+	width: 100%;
+	height: 2.1rem;
+}
+.dianpu img{
+	display: block;
+	width: 1.35rem;
+	height: 1.35rem;
+	margin-left: 0.6rem;
+	margin-top: 0.35rem;
+	float: left;
+}
+.dianpuR{
+	width: 8.5rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.3rem;
+}
+.dianpuR h1{
+	font-size: 0.42rem;
+	color: #000;
+	margin-top: 0.35rem;
+}
+.dianpuR h2{
+	font-size: 0.33rem;
+	color: #989898;
+	margin-top: 0.3rem;
+}
+
+/* 店铺 */
+/* 分类框 */
+.fenleikuang{
+	width: 100%;
+	height: 1.34rem;
+	border-bottom: 0.01rem solid #eeeeee;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.fenleikuang ul{
+	display: flex;
+	width: 100%;
+	height: 1.34rem;
+}
+.fenleikuang ul li{
+    width: 33%;
+    height: 100%;
+    font-size: 0.42rem;
+    color: #666;
+    line-height: 1.34rem;
+    text-align: center;
+    border-bottom: 0.05rem solid #fff;
+    
+    
+}
+.fenleikuang ul li:hover{
+	border-bottom: 0.05rem solid rgb(244,86,86);
+    color: rgb(244,86,86);
+}
+/* 分类框 */
+.tupian{
+	width: 100%;
+	padding: 0.3rem 0.3rem;
+	box-sizing: border-box;
+    margin-bottom: 0.5rem;
+}
+.tupianxiangqing img{
+	max-width: 100%;
+	height: auto;
+}
+/* 底部 */
+.dibu{
+	width: 100%;
+	height: 1.5rem;
+	padding: 0 0.3rem;
+	display: flex;
+	background: rgb(244,86,86);
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.dibu .L{
+    width: 4.22rem;
+    height: 100%;
+   
+}
+.dibu .L ul{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	padding: 0.1rem 0;
+	box-sizing: border-box;
+}
+.dibu .L ul li{
+	width: 33.3%;
+	height: 100%;
+	border-right: 0.01rem solid #d0d0d0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.dibu .L i{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #7c7c7c;
+    
+
+}
+.dibu .L h1{
+	font-size: 0.35rem;
+	color: #7c7c7c;
+}
+.dibu .R{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 40%;
+}
+.dibu .R div{
+	width: 2.57rem;
+	height: 1.1rem;
+	border: 0.02rem solid rgb(244,86,86);
+	font-size: 0.42rem;
+	color: rgb(244,86,86);
+	border-radius: 0.2rem;
+	background: #fff;
+	margin-left: 0.5rem;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.dibu .R div:hover{
+	border: 0.02rem solid #fff;
+	background: #f04d62;
+	color: #fff;
+}

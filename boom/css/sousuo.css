@@ -1,0 +1,141 @@
+@import url('base.css');
+.header_T{
+    width: 100%;
+    height: 1.65rem;
+    background: #fff;
+    position: relative;
+    top: 0rem;
+    position: fixed;
+    justify-content: center;
+    overflow: hidden;
+}
+.header_T a{
+    display: block;
+    font-size: 0.42rem;
+    position: absolute;
+    top: 0.35rem;
+    right: 0.46rem;
+    position: fixed;
+    z-index: 999;
+	line-height: 1.65rem;
+
+
+}
+.sousuo_R:focus{
+	outline: none;
+}
+.sousuo_R{
+	border-radius: 0.5rem;
+	width: 7.8rem;
+    height: 0.96rem;
+	font-size: 0.42rem;
+	padding-left: 0.1rem;
+	color: #656567;
+    border: none;
+    position: absolute;
+	top: 0.6rem;
+
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 998;
+    background: #f5f5f5;
+}
+.icon-search{
+	top: 0.9rem;
+	left: 8.5rem;
+	font-size: 0.5rem;
+	position: fixed;
+	display: block;
+	z-index: 999;
+}
+.liebiao{
+	width: 100%;
+	height: 1.34rem;
+	background: #fff;
+	position: fixed;
+	top: 1.65rem;
+}
+.liebiao ul{
+	height: 100%;
+	display: flex;
+	margin: 0 0.3rem;
+}
+.liebiao ul li{
+	width:25%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liebiao ul li span{
+	font-size: 0.42rem;
+	color: #656565;
+
+}
+.liebiao ul li i{
+	font-size: 0.42rem;
+	color: #656565;
+}
+.liebiao ul li:hover{
+	border-bottom: 0.06rem solid #fd5576;
+}
+.liebiao ul li:hover span{
+	color:#fd5576;
+}
+/* 商品 */
+.shangpin{
+	width: 100%;
+	overflow: hidden;
+	background: #fafafa;
+	margin-top: 2.69rem;
+}
+.shangpin ul{
+	width: 100%;
+	margin-top: 0.22rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.shangpin ul li{
+	width: 5.08rem;
+	height: 7.4rem;
+	background: #fff;
+	margin-bottom: 0.35rem;
+}
+.shangpin ul li img{
+    display: block;
+    width: 100%;
+    height: 4.8rem;
+}
+.wenzi{
+	width: 100%;
+	height: 2.6rem;
+	padding: 0.3rem 0.35rem;
+	box-sizing: border-box;
+}
+.wenzi p{
+    font-size: 0.32rem;
+    color: #646464;
+}
+.wenzi .jiage{
+	overflow: hidden;
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wenzi .jiage .L{
+	font-size: 0.34rem;
+	color: #323232;
+}
+.wenzi .jiage .R{
+    font-size: 0.27rem;
+	color: #979797;
+}
+/* 商品 */

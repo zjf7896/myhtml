@@ -1,0 +1,128 @@
+@import url('base.css');
+.header{
+	width: 100%;
+	height: 1.4rem;
+	font-size: 0.5rem;
+	color: white;
+	text-align: center;
+	line-height: 1.4rem;
+	padding-top: 0.4rem;
+	background: rgb(244,86,86);
+}
+.header a{
+	margin-left: 0.46rem;
+	position: absolute;
+	top: 0.42rem;
+	left: 0.46rem;
+	display: block;
+	/* background: red; */
+}
+.icon-zuojiantou{
+	color: white;
+}
+.header i{
+	display: block;
+	font-size: 0.52rem;
+/* 	margin-left: 0.46rem;
+	position: absolute;
+	top: 0.42rem;
+	left: 0.46rem; */
+}
+/*  */
+.denglu{
+	width: 100%;
+	height: 6.14rem;
+	background: #fafafa;
+	overflow: hidden;
+}
+.denglu ul{
+	width: 100%;
+	height: 2.1rem;
+	
+	margin-top: 1.21rem;
+}
+.denglu ul li{
+	width: 33.33%;
+	height: 100%;
+    float: left;
+    
+    display: flex;
+    justify-content: center;
+}
+.denglu ul li img{
+    display: block;
+    width: 2.1rem;
+    height: 2.1rem;
+}
+.denglu span{
+	width: 100%;
+	font-size: 0.42rem;
+	display: block;
+	color: #666666;
+	text-align: center;
+	margin-top: 1.1rem;
+}
+/*  */
+.shurukuang{
+	width: 100%;
+	height: 6.22rem;
+	padding: 0 0.48rem;
+	box-sizing: border-box;
+}
+:focus{
+	display: none;
+}
+.shurukuang input{
+	border: none;
+	width: 100%;
+	height: 1.36rem;
+    margin-bottom: 0.36rem;
+    border-radius: 0.1rem;
+    background: #f2f2f2;
+    font-size: 0.4rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.dengluanniu{
+	width: 100%;
+	height: 1.26rem;
+	margin-top: 0.36rem;
+	background: rgb(244,86,86);
+	border-radius: 0.1rem;
+	font-size: 0.42rem;
+	text-align: center;
+	line-height: 1.26rem;
+	color: #fefefe;
+}
+.denglu_B{
+	width: 100%;
+	height: 0.68rem;
+	margin-top: 0.46rem;
+}
+.denglu_B ul{
+	width: 100%;
+	height: 0.68rem;
+}
+.denglu_B  li{
+	width: 33%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #636363;
+	border-right:  0.01rem solid #d2d2d2;
+	text-align: center;
+	float: left;
+}
+.denglu_B  li a{
+    display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #636363;
+	text-align: center;
+}
+.denglu_B  li:nth-child(2){
+	text-align: center;
+}
+.denglu_B  li:nth-child(3){
+	text-align: right;
+}
